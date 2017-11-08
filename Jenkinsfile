@@ -12,6 +12,7 @@ timestamps {
 
     stage('build') {
       grunt 'build'
+      archiveArtifacts artifacts: 'build/**'
     }
 
     stage('test') {
