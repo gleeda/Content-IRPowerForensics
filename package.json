@@ -1,0 +1,7 @@
+{
+  "name": "powerforensics",
+  "version": "1.1.0",
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
+}
