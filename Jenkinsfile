@@ -1,4 +1,4 @@
-@Library('common-jenkins') _
+@Library('common-jenkins@bkfixes') _
 
 timestamps {
   slave('windows10', '6.11.5') {
